@@ -1,0 +1,17 @@
+{
+  "name": "componentkit",
+  "version": "1.0.0",
+  "description": "Framework agnostic Web Components library",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "serve": "npx http-server -p 3000"
+  },
+  "keywords": ["web-components", "typescript", "ui-library"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
