@@ -1,17 +1,15 @@
 {
   "name": "componentkit",
-  "version": "1.0.0",
-  "description": "Framework agnostic Web Components library",
-  "main": "dist/index.js",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "tsc --watch",
-    "build": "tsc",
-    "serve": "npx http-server -p 3000"
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
   },
-  "keywords": ["web-components", "typescript", "ui-library"],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
   }
 }
